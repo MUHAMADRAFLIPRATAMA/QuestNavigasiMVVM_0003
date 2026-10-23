@@ -20,9 +20,9 @@ fun TampilData(
     onBackBtnClick: () -> Unit
 ) {
     val items = listOf(
-        Pair(stringResource(id = R.string.nama_lengkap), "Contoh Nama"),
-        Pair(stringResource(id = R.string.jenis_kelamin), "Lainnya"),
-        Pair(stringResource(id = R.string.alamat), "Yogyakarta")
+        Pair(stringResource(id = R.string.nama_lengkap), "RAFLI JMK48"),
+        Pair(stringResource(id = R.string.jenis_kelamin), "Jawa"),
+        Pair(stringResource(id = R.string.alamat), "Ngawi Timur")
     )
     Scaffold(
         modifier = Modifier,
