@@ -48,4 +48,10 @@ fun TampilData(
                         Text(text = item.first.uppercase(), fontSize = 16.sp)
                         Text(text = item.second, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Cursive, fontSize = 22.sp)
                     }
-                    
+                    HorizontalDivider(thickness = 1.dp, color = Color.Cyan)
+                }
+                Spacer(modifier = Modifier.height(10.dp))
+                Button(
+                    modifier = Modifier.fillMaxWidth(),
+                    onClick = onBackBtnClick
+                ) {
